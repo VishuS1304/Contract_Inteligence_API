@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: contract_intelligence_api
+Version: 0.1.0
+Summary: Contract Intelligence API (local package for tests)
+Author: You
+License: MIT
+Requires-Python: >=3.8

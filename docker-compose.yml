@@ -1,0 +1,15 @@
+version: "3.12"
+services:
+  contract-intel:
+    build: .
+    image: contract_intelligence_api:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data:rw
+      - ./store:/app/store:rw
+    environment:
+      - STORE_DIR=/app/store
+      - STORE_TEXT_DIR=/app/store/texts
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

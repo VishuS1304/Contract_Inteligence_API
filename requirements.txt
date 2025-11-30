@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+PyPDF2
+sentence-transformers
+faiss-cpu
+transformers
+torch
+prometheus-client
+python-multipart
+python-dateutil
+requests
+sse-starlette
+pytest
+httpx
